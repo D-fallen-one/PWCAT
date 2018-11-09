@@ -1,0 +1,55 @@
+{
+  "configVersion": 1,
+  "index": "https://sky17-github.github.io/PWCAT/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sky17-github.github.io/PWCAT/favicon.ico",
+        "https://sky17-github.github.io/PWCAT/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sky17-github.github.io/PWCAT/assets/icon-128x128.png",
+        "https://sky17-github.github.io/PWCAT/assets/icon-152x152.png",
+        "https://sky17-github.github.io/PWCAT/assets/icon-256x256.png",
+        "https://sky17-github.github.io/PWCAT/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://sky17-github.github.io/PWCAT/assets/icon-128x128.png": "064c0794f41b0fc955ff4f08ec54daf077bac551",
+    "https://sky17-github.github.io/PWCAT/assets/icon-152x152.png": "1797d8970b435dedf81b03d00872678f1e800e88",
+    "https://sky17-github.github.io/PWCAT/assets/icon-256x256.png": "05119053336b8374ca406f748fbfe613bb2643fb",
+    "https://sky17-github.github.io/PWCAT/assets/icon-512x512.png": "23ad778ef7a3c5a9dd9fe30d09004b9fe5dcc8e8",
+    "https://sky17-github.github.io/PWCAT/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://sky17-github.github.io/PWCAT/index.html": "88be8a4902c677b1ae360ff522c0e07088567974"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
